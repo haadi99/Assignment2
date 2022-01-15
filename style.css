@@ -171,6 +171,8 @@ Popular Collection
     border-radius:20px;
     background-color:rgba(240, 128, 128, 0.034);
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    height:350px;
+    margin-bottom:40px;
 }
 .need{
     display:flex;
@@ -237,6 +239,22 @@ Popular Collection
     text-decoration:none;
     color:white;
 }
+/* ---------------
+    Logo Box
+-------------------*/
+.logo-box {
+    width:1110px;
+    height:110px;
+    margin-top: 50px;
+    margin-bottom:0;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-left: 150px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 100px;
+}
+
 
 
 /* --------------------------
@@ -329,8 +347,15 @@ Popular Collection
    .see{
        margin-top:40px;
         margin-left:50%;
-}
-   
+    }
+    .login{
+        height:650px;
+    }
+    .logo-box{
+        flex-direction: column;
+        width:50%;
+        height:350px;
+    }
 }
 @media (max-width: 992px)and (min-width:667px){
     
@@ -380,6 +405,14 @@ Popular Collection
     }
     .see{
         margin-left:50%;
+    }
+    .login{
+        height:600px;
+    }
+    .logo-box{
+        flex-direction: column;
+        width:50%;
+        height:400px;
     }
     
 }
