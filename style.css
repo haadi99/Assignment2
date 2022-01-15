@@ -3,9 +3,9 @@
 -------------------*/
 .container{
      display: flex;
-     justify-content:center;
-     align-items:center;
-     gap:133px;
+     justify-content:space-around;
+     /* align-items:center; */
+     /* gap:133px; */
 }
 .start{
     width: 582px;
@@ -21,10 +21,14 @@
     font-weight: 600;
 }
 .camera img{
-    width:440px;
-    height:414px;
+    width:350px;
+    height:300px;
+    transition: transform 0.8s;
+    cursor: pointer;
 }
-
+.camera img:hover{
+    transform:scale(1.2);
+}
 
 
 /* ------------------
@@ -33,11 +37,13 @@ Popular Collection
 .popular-collection{
     width:1047px;
     height:1662px;
-    margin-left: 165px;
+    /* margin-left: 165px; */
     
     
 }
-
+.full{
+    margin: auto;
+}
 .collections{
     display: grid;
     grid-template-columns:repeat(3,1fr);
