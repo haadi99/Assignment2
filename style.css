@@ -306,6 +306,18 @@ Popular Collection
 .social{
     margin-right: 16px;
 }
+.insta{
+    color:pink;
+}
+.web{
+    color: green;
+}
+.tweter{
+    color: rgb(17, 217, 231);
+}
+.youtube{
+    color: red;
+}
 
 
 
