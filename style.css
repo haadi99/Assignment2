@@ -2,6 +2,7 @@
 1s section
 -------------------*/
 body{
+    margin: 0;padding:0;
     font-family: 'Poppins', sans-serif;
     color:#3A3A3A;
 }
@@ -80,6 +81,7 @@ Popular Collection
 .full{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .collections{
     display: grid;
@@ -118,6 +120,7 @@ Popular Collection
 }
 .heading{
     font-size:28px;
+    font-weight:600;
     color: #18191F;
     margin-bottom:30px;
     text-align: center;
@@ -154,7 +157,7 @@ Popular Collection
     text-align: right;
     text-decoration: none;
     color:#E02C6DDE;
-    margin-left: 946px;
+    margin-left: 90%;
     margin-top: 20px;
 
 }
@@ -211,6 +214,12 @@ Popular Collection
 .about{
     width:300px;
     height: 300px;
+}
+.comm{
+    margin-top: 0;
+}
+.about h3{
+    margin-top:0;
 }
 .comm-btn{
     background-color:#E02C6D;
@@ -272,9 +281,7 @@ Popular Collection
 
 
 @media (max-width:668px) {
-   body {
-    background-color:red;
-   }
+   
    .page-header{
        font-size:20px;
        text-align:center;
@@ -309,6 +316,7 @@ Popular Collection
    .full{
        flex-direction: column;
        width: 100%;
+       margin-bottom: 50px;
        /* margin-top: 100px; */
 
    }
@@ -318,12 +326,14 @@ Popular Collection
        margin: 0;
        
    }
+   .see{
+       margin-top:40px;
+        margin-left:50%;
+}
    
 }
 @media (max-width: 992px)and (min-width:667px){
-    body {
-        background-color:blue;
-       }
+    
     .page-header{
         font-size:20px;
         text-align:center;
@@ -358,6 +368,7 @@ Popular Collection
     .full{
         flex-direction: column;
         width: 100%;
+        margin-bottom: 50px;
         /* margin-top: 100px; */
  
     }
@@ -366,6 +377,9 @@ Popular Collection
         grid-template-columns: repeat(2,1fr);
         margin: 0;
         
+    }
+    .see{
+        margin-left:50%;
     }
     
 }
